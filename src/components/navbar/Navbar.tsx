@@ -26,7 +26,7 @@ const translations = {
       { name: 'INVEST IN CAR', href: '/invest-in-rca' },
       { name: 'TENDERS', href: '/tenders' },
       { name: 'NEWS', href: '/news' },
-      { name: 'CONTACT', href: '/contact' },
+      { name: 'CONTACTS', href: '/contact' },
     ],
     client: 'CLIENT AREA',
   },
