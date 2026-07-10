@@ -96,7 +96,7 @@ export default function AboutSection() {
             <FadeIn delay={0.25}>
             <div className="relative">
               <Image
-                src="/images/image_A.PNG"
+                src="/images/image_A.png"
                 alt="About Africa Business Gate"
                 width={800}
                 height={700}

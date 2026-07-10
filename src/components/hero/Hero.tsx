@@ -112,7 +112,7 @@ export default function Hero() {
         <FadeIn delay={0.3}>
   <div className="relative">
         <Image
-          src="/images/hero-bg.jpg"
+          src="/images/hero-bg.jpg.jpg"
           alt="Africa Business Gate"
           fill
           sizes="100vw"

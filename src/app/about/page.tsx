@@ -50,7 +50,7 @@ export default function AboutPage() {
       <section className="relative min-h-[70vh] flex items-center overflow-hidden pt-[120px]">
         <div className="absolute inset-0">
           <Image
-            src="/images/about-business.PNG"
+            src="/images/about-business.png"
             alt="Africa Business Gate"
             fill
             sizes="100vw"
