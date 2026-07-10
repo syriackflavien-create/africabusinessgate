@@ -35,7 +35,7 @@ export default function CTAPremium() {
             </a>
 
             <a
-              href="tel:+236XXXXXXXX"
+              href="tel:+23672165327"
               className="inline-flex items-center justify-center gap-3 border border-white/20 px-9 py-5 rounded-2xl font-bold text-white hover:bg-white hover:text-[#071739] transition"
             >
               APPELER MAINTENANT

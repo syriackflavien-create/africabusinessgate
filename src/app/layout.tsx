@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: '/logo.PNG',
+    icon: '/logo.png',
   },
 }
 

@@ -112,7 +112,7 @@ export default function Hero() {
         <FadeIn delay={0.3}>
   <div className="relative">
         <Image
-          src="/images/hero-bg.jpg.jpg"
+          src="/images/hero-bg.jpg"
           alt="Africa Business Gate"
           fill
           sizes="100vw"
@@ -239,7 +239,7 @@ export default function Hero() {
             <div className="relative">
 
               <Image
-                src="/images/rca-map.PNG"
+                src="/images/rca-map.png"
                 alt="Carte RCA"
                 width={900}
                 height={400}
@@ -251,7 +251,7 @@ export default function Hero() {
               <div className="absolute bottom-0 right-0">
 
                 <Image
-                  src="/images/rca-flag.PNG"
+                  src="/images/rca-flag.png"
                   alt="RCA Flag"
                   width={180}
                   height={180}

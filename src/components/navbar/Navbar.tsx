@@ -45,7 +45,7 @@ export default function Navbar() {
 
           <a href="/" className="flex items-center gap-3">
             <Image
-              src="logo.png"
+              public="logo.png"
               alt="Africa Business Gate"
               width={120}
               height={120}
