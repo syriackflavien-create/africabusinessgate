@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import FadeIn from '../animations/FadeIn'
+import Script from "next/script";
 
 export default function AboutSection() {
   return (
@@ -96,7 +97,7 @@ export default function AboutSection() {
             <FadeIn delay={0.25}>
             <div className="relative">
               <Image
-                src="/images/image_A.png"
+                public="/images/image_A.png"
                 alt="About Africa Business Gate"
                 width={800}
                 height={700}
@@ -110,6 +111,27 @@ export default function AboutSection() {
           </div>
 
         </div>
+         <Script
+        src="https://platform.linkedin.com/badges/js/profile.js"
+        strategy="afterInteractive"
+      />
+
+      <div
+        className="badge-base LI-profile-badge"
+        data-locale="fr_FR"
+        data-size="large"
+        data-theme="light"
+        data-type="VERTICAL"
+        data-vanity="syriack-flavien-ndamassingba-mbolipatirani-9a7824286"
+        data-version="v1"
+      >
+        <a
+          className="badge-base__link LI-simple-link"
+          href="https://cf.linkedin.com/in/syriack-flavien-ndamassingba-mbolipatirani-9a7824286"
+        >
+          Syriack Flavien NDAMASSINGBA MBOLIPATIRANI
+        </a>
+      </div>
       </div>
     </section>
   )
